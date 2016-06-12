@@ -33,7 +33,7 @@ public class Second_page extends AppCompatActivity {
     private AdapterView.OnItemClickListener mMessageClickedHandler = new AdapterView.OnItemClickListener() {
         public void onItemClick(AdapterView parent, View v, int position, long id) {
             if( position == 1) {
-                Intent k = new Intent(getApplicationContext(), First_page.class);
+                Intent k = new Intent(getApplicationContext(), Info_Page.class);
                 startActivity(k);
             }
         }
